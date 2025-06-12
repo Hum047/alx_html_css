@@ -35,3 +35,45 @@ header, footer {
   background-color: #ddd;
   text-align: center;
 }
+/* === Custom styling for final task === */
+
+article {
+  background-color: #fff;
+  color: #333;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+article h1, article h2, article h3 {
+  color: #004080;
+}
+
+article p {
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid #ccc;
+  text-align: left;
+}
+
+th {
+  background-color: #f4f4f4;
+}
+
+/* Optional override in case logo style is missing */
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  margin-right: 10px;
+}
