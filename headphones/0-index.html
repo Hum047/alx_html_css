@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Headphones</title>
+  <link rel="stylesheet" href="0-styles.css">
+
+  <!-- Fonts (you'll need to download or link them properly later) -->
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="hero">
+    <div class="container">
+      <nav class="navbar">
+        <img src="images/logo_headphones.png" alt="Headphones logo" class="logo">
+        <ul class="nav-links">
+          <li><a href="#">What we do</a></li>
+          <li><a href="#">Our results</a></li>
+          <li><a href="#">Contact us</a></li>
+        </ul>
+      </nav>
+
+      <div class="hero-text">
+        <h1>Headphones</h1>
+        <h2>Your music, your way.</h2>
+        <a href="#" class="btn">Try it now</a>
+      </div>
+    </div>
+  </header>
+</body>
+</html>
+.container {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.hero {
+  background-image: url("images/headphones_hero_1.jpg");
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a {
+  color: var(--text-color);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav-links a:hover,
+.nav-links a:active {
+  color: var(--main-color);
+}
+
+.hero-text {
+  text-align: center;
+  padding: 50px 0;
+}
+
+.hero-text h1 {
+  font-size: 48px;
+  font-family: var(--font-heading);
+}
+
+.hero-text h2 {
+  font-size: 24px;
+  margin: 20px 0;
+}
+
+.btn {
+  display: inline-block;
+  background-color: var(--main-color);
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: opacity 0.3s ease;
+}
+
+.btn:hover,
+.btn:active {
+  opacity: 0.9;
+}

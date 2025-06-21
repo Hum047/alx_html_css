@@ -1,0 +1,21 @@
+/* CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Root Variables */
+:root {
+  --main-color: #FF6565;
+  --text-color: #ffffff;
+  --font-main: 'Source Sans Pro', sans-serif;
+  --font-heading: 'Spin-Cycle-OT', cursive;
+  --max-width: 1000px;
+}
+
+body {
+  font-family: var(--font-main);
+  background-color: #000;
+  color: var(--text-color);
+}
