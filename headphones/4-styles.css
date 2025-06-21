@@ -196,31 +196,3 @@ body {
   font-size: 14px;
   color: #aaa;
 }
-.feature {
-  background-color: #f0f0f0;
-  padding: 30px;
-  border: 2px solid #ccc;
-  margin: 20px 0;
-  transition: all 0.4s ease;
-}
-
-.feature:hover {
-  transform: scale(1.2);
-  opacity: 0.5;
-  background-color: yellow;
-  border-color: red;
-}
-
-.metric {
-  background-color: #e0e0e0;
-  padding: 20px;
-  border: 2px solid #999;
-  margin: 10px;
-  transition: all 0.4s ease;
-}
-
-.metric:hover {
-  transform: rotate(5deg);
-  background-color: orange;
-  border-color: blue;
-}
